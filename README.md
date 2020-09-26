@@ -1,6 +1,6 @@
 # Backend Stack With Vapor and SQLite
 
-![vapor-sqlite-simple-api](https://res.cloudinary.com/dsv9w1ey3/image/upload/v1601139159/github-images/vapor-sqlite-simple-api-ui_ztconq.png)
+![vapor-sqlite-simple-api](https://res.cloudinary.com/dsv9w1ey3/image/upload/v1601139351/github-images/vapor-sqlite-simple-api-ui_euejra.png)
 
 Vapor is web framework for Swift, in this project I used SQLite for database.
 
