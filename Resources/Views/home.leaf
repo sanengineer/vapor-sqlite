@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Belajar VaporAPI with Swift</title>
+        <title>Vapor SQLite Simple API with Swift</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- CSS only -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
     <body>
-    <div class="navbar bg-dark">
-    <div class="container">
-        <h1 class="h5 p-4 text-white">Vapor SQLite Simple API</h1>
+    <div class="bg-dark">
+    <div class="container-md container-sm">
+        <h1 class="h5 py-3 text-white font-weight-bolder">Vapor SQLite Simple API</h1>
     </div>
     </div>
     <div class="container-md container-sm my-5">
-    <h2 class="mt-5">Juice Corner</h2>
+    <h2 class="h4 font-weight-bolder mt-5">Juice Corner</h2>
         <p>Welcome to Juice Corner!</p>
         <ul>
             #for(juice in juices) {
                 <li>#(juice.name)</li>
             }
         </ul>
-        <h2>Orders</h2>
+        <h2 class="h4 font-weight-bolder">Orders</h2>
         <ul>
             #for(order in orders) {
                 <li>Order #(order.drinkName) for #(order.buyerName) at #date(order.date, "HH:mm, dd-MM-yyyy")</li>
             }
         </ul>
-        <h2>Add new juice</h2>
+        <h2 class="h4 font-weight-bolder">Add New Juice</h2>
         <form method="post" action="/add">
             <div class="form-group">
             <label for="forName">Name</label>
@@ -41,12 +41,12 @@
             <label for="forPrice">Price</label>
                 <input id="forPrice" type="number" name="price" class="form-control col-md-4"/>
             </div>
-        <button class="btn btn-primary" type="submit">Add</button>    
+        <button class="btn btn-success" type="submit">Add</button>    
         </form>
     </div>
     <footer class="bg-light text-muted">
-    <div class="container-fluid p-3 p-md-5">
-        <p>build with <a href="https://swift.org">swift</a></p>
+    <div class="container-md container-sm py-3 py-md-5">
+        <p>build with <a href="https://swift.org" class="text-success">swift</a></p>
     </div>
     </footer>
     </body>
