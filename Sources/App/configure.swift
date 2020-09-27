@@ -31,11 +31,6 @@ public func configure(
     // Configure a SQLite database
     var databaseConfig = DatabasesConfig()
     let db = try SQLiteDatabase(storage: .file(path: "\(directoryConfig.workDir)juices.db"))
-
-    /// Register the configured SQLite database to the database config.
-    // var databases = DatabasesConfig()
-    // databases.add(database: postgres, as: .sqlite)
-    // services.register(databases)
     
     // Register the configured SQLite database to the database config.
     databaseConfig.add(database: db, as: .sqlite)
