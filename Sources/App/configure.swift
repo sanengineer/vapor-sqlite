@@ -62,8 +62,4 @@ public func configure(
     middlewares.use(ErrorMiddleware.self) // Catches errors and converts to HTTP response
     services.register(middlewares)
        
-    
-
-    
-    
 }
