@@ -4,6 +4,7 @@
         <title>Swift SQLite - Create Simple ReSTAPI with Vapor (Web Framework For Swift)</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#343a40">
         <link rel="icon" href="https://res.cloudinary.com/dsv9w1ey3/image/upload/v1601256780/github-images/san-engineer-circle-white-logo_oylbx9.png" type="image/png">
         <meta name="title" content="Swift SQLite - Create Simple ReSTAPI with Vapor (Web Framework For Swift)">
         <meta name="description" content="Create RestAPI with Vapor (Swift Web Frame Work) and SQLite (Realational Database Management System) with simple method GET and POST....">
@@ -86,7 +87,7 @@
     <footer class="bg-light text-muted">
         <div class="container-md container-sm py-3 py-md-5">
             <p>build with <a href="https://swift.org" class="text-success">swift</a></p>
-            <p class="font-weight-bolder" style="font-size:10px">fork me on<a href="https://github.com/sanengineer/vapor-sqlite" class="text-success">github</a></p>
+            <p class="font-weight-bolder" style="font-size:10px">fork me on <a href="https://github.com/sanengineer/vapor-sqlite" class="text-success">github</a></p>
         </div>
     </footer>
     </body>
